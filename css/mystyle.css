@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@font-face {
+    font-family: 'Revalia';
+    src: url('fonts/Revalia-Regular.eot');
+src: local('fonts/Revalia-Regular'),
+        url('fonts/Revalia-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Revalia-Regular.woff2') format('woff2'),
+        url('fonts/Revalia-Regular.woff') format('woff'),
+        url('fonts/Revalia-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo{
+margin: 30px;
+margin-right: 398px;
+width: 96px;
+height: 60px;
+left: 402px;
+top: 50px;
+
+
+    font-family:'Revalia';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #34547A;}
+
+.menu a{ 
+
+    list-style: none; 
+    margin:0;
+    margin-top: 50px;
+   display: flex; 
+   justify-content:center;
+  margin-left: auto;
+  margin-right: 42px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-decoration:none;
+  color: #000000;
+}
+
+li {
+    
+    display:inline-block;
+    vertical-align: top;
+    text-decoration: none;
+
+    
+}
+header {
+    
+    top: 8%;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #F0F7F4;
+}
+.headline {
+list-style: none;
+display: flex;
+justify-content: center;
+width: 541px;
+height: 45px;
+left: 974px;
+top: 250px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 79px;
+color: #000000;
+ margin-right: 200px;
+ margin-left: 650px;
+}
+.passage {
+width: 540px;
+height: 67px;
+top: 355px;
+display: block;
+justify-content: right;
+margin-left: 720px;
+margin-top: 60px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+}
+
+#rectangle {
+    background: #34547A;
+    width: 225px;
+    height: 65px;
+    position: relative;
+    margin-left: 720px;
+    margin-top: 60px;
+}
+.bottom {
+width: 143px;
+height: 100px;
+text-decoration:none;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+text-transform: uppercase;
+margin-top: 25px;
+}
