@@ -12,6 +12,12 @@ src: local('fonts/Revalia-Regular'),
     font-style: normal;
 }
 
+.headerscreen {
+    background: #EEEFF1;
+    padding-bottom: 146px;
+
+}
+
 .logo{
 margin: 30px;
 margin-right: 398px;
@@ -65,11 +71,11 @@ header {
     display: flex;
     justify-content: center;
     color: #F0F7F4;
+    margin-bottom: 161px;
 }
 .headline {
 list-style: none;
-display: flex;
-justify-content: center;
+margin: 0;
 width: 541px;
 height: 45px;
 left: 974px;
@@ -80,23 +86,27 @@ font-weight: 500;
 font-size: 48px;
 line-height: 79px;
 color: #000000;
- margin-right: 200px;
- margin-left: 650px;
+transform: translateY(-30px);
+
+ /* margin-left: 650px; */
 }
 .passage {
-width: 540px;
-height: 67px;
-top: 355px;
-display: block;
-justify-content: right;
-margin-left: 720px;
-margin-top: 60px;
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 26px;
-color: #727272;
+    width: 540px;
+    height: 67px;
+    top: 355px;
+    display: block;
+    justify-content: right;
+    /* margin-left: 720px; */
+    margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    flex-wrap:wrap ;
+    display: flex;
+    
 }
 
 #rectangle {
@@ -104,21 +114,208 @@ color: #727272;
     width: 225px;
     height: 65px;
     position: relative;
-    margin-left: 720px;
+    /* margin-left: 720px; */
     margin-top: 60px;
 }
 .bottom {
-width: 143px;
-height: 100px;
-text-decoration:none;
-font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+
+    width: 225px;
+    height: 65px;
+
+    background: #34547A;
+
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.bannerpicture {
+    width: 357px;
+    margin-right: 130px;
+    height: 233.7px;
+    
+    display: flex;
+    justify-content: center;
+}
+.textaboutme {
+    
+   
+    height: 147px;
+    left: 690px;
+    top: 812px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 116px;
+
+    
+}
+.headline2 {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    
+
+color: #000000;
+}
+.passageaboutme {
+    left: 690px;
+top: 892px;
+width: 540px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+
+font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 26px;
 text-align: center;
-letter-spacing: 0.1em;
-color: #FFFFFF;
-text-transform: uppercase;
-margin-top: 25px;
+color: #727272;
+}
+
+#bluerectangle {
+    width: 1920px;
+    height: 250px;
+    left: 0px;
+    background: #34547A;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.bannerpicture {
+
+    margin-right: 87.33px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.myportfolio{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    background: #34547A;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.myportfolio img{
+    width: 141px;
+    height: 50px;
+    margin: auto;
+}
+
+.skillsscreen{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.rubric{
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    margin: 0;
+
+}
+.skillsText {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 50px;
+    
+    
+}
+
+/* .skillsText:first-of-type {
+    margin-top: 60px;
+} */
+
+.Adobephotoshop {
+    margin-top: 50px;
+}
+.greyrectangle{ 
+    width: 445px;
+height: 4px;
+left: 386px;
+top: 1628px;
+background: #C4C4C4;
+}
+.darkbluerectangle{
+    width: 75%;
+    height: 100%;
+    background: #34547A;
+}
+
+.htmlSkillLevel{
+    width: 54%;
+}
+.cssSkillLevel {
+    width: 32%;
+}
+.englishLevel {
+    width: 100%;
+}
+
+.myimage {
+    width: 555px;
+    height: 450px;
+    padding-top: 102px;
+}
+.myworkscreen{
+    margin-top: 119px;
+    background: #EEEFF1;
+    padding: 100px 0;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+}
+.myworkpassage {
+  
+width: 540px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #727272;
+}
+.myvideo {
+width: 1110px;
+height: 600px;
+margin: auto;
+margin-top: 57px;
+}
+.picturesaboutme {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    
 }
